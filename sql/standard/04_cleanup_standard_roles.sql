@@ -1,0 +1,7 @@
+-- Optional. Run AFTER you finish testing.
+USE ROLE SECURITYADMIN;
+DROP ROLE IF EXISTS DEMO_STD_US_ANALYST;
+DROP ROLE IF EXISTS DEMO_STD_EU_ANALYST;
+DROP ROLE IF EXISTS DEMO_STD_AUDITOR;
+DROP ROLE IF EXISTS DEMO_STD_COMPLIANCE;
+-- Then run sql/06_cleanup_optional.sql to remove database and warehouse.
